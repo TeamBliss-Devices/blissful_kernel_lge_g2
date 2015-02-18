@@ -53,4 +53,9 @@ else
 obj-$(CONFIG_FB_MSM_MDSS_DSI_CTRL_STATUS) += mdss_dsi_status.o
 endif
 
+<<<<<<< HEAD
+=======
+obj-$(CONFIG_MDSS_QUICKDRAW) += mdss_quickdraw.o
+
+>>>>>>> 05fe6eb... msm: mdss: Add KCAL support for post processing control [v2]
 obj-$(CONFIG_FB_MSM_MDSS_KCAL_CTRL) += mdss_mdp_kcal_ctrl.o
