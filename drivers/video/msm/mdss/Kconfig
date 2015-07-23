@@ -62,15 +62,3 @@ config LGE_MIPI_DZNY_JDI_INCELL_FHD_VIDEO_PANEL
 config LGE_LION_DSV
 	bool "LION_DSV Power Management chip"
 	default n
-<<<<<<< HEAD
-=======
-	---help---
-	  MDSS support for Framebuffer quickdraw
-
-config FB_MSM_MDSS_KCAL_CTRL
-	depends on FB_MSM_MDSS
-	bool "MDSS color control"
-	---help---
-	  Enable sysfs for rgb/lut control for mdss-mdp display controllers
-	  in the MDSS sub-system.
->>>>>>> 05fe6eb... msm: mdss: Add KCAL support for post processing control [v2]
